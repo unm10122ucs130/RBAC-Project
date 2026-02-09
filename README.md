@@ -8,23 +8,23 @@ This is a full-stack RBAC (Role-Based Access Control) system that provides secur
 
 <h3>2. Key Features</h3>
 
-·  JWT-based authentication & authorization
+-  JWT-based authentication & authorization
 
-·  User management with role assignment
+-  User management with role assignment
 
-·  Employee management with profiles
+-  Employee management with profiles
 
-·  Project management with assignments
+-  Project management with assignments
 
-·  Role-based permission configuration
+-  Role-based permission configuration
 
-·  Interactive dashboard with analytics
+-  Interactive dashboard with analytics
 
-·  Fully responsive Material-UI design
+-  Fully responsive Material-UI design
 
-·  High-performance REST API
+-  High-performance REST API
 
-·  Secure password encryption (BCrypt)
+-  Secure password encryption (BCrypt)
 
 <h3>3. Data Models</h3>
 
@@ -41,19 +41,19 @@ Core Entities
 
 Prerequisites
 
-· Java 17+
+- Java 17+
 
-· Node.js 18+
+- Node.js 18+
 
-· MySQL 8.0+
+- MySQL 8.0+
 
-· Maven 3.6+
+- Maven 3.6+
 
-. Spring Boot 3.5+
+- Spring Boot 3.5+
 
-. React JS 18.2+
+- React JS 18.2+
 
-· Git 
+- Git 
 
 
 
@@ -110,11 +110,11 @@ Frontend runs on: http://localhost:5173
 
 Default Admin Account
 
-· Username: admin
+- Username: admin
 
-· Password: admin123
+- Password: admin123
 
-· Role: ADMIN (Full access)
+- Role: ADMIN (Full access)
 
 
 Default Users & Access Levels
@@ -130,59 +130,59 @@ Default Users & Access Levels
 
 Authentication
 
-· POST /api/auth/login - User login
+- POST /api/auth/login - User login
 
-· POST /api/auth/register - User registration
+- POST /api/auth/register - User registration
 
 User Management
 
-· GET /api/users - List all users
+- GET /api/users - List all users
 
-· POST /api/users - Create user
+- POST /api/users - Create user
 
-· PUT /api/users/{id} - Update user
+- PUT /api/users/{id} - Update user
 
-· DELETE /api/users/{id} - Delete user
+- DELETE /api/users/{id} - Delete user
 
 Role Management
 
-· GET /api/roles - List all roles
+- GET /api/roles - List all roles
 
-· POST /api/roles - Create role
+- POST /api/roles - Create role
 
-· PUT /api/roles/{id} - Update role
+- PUT /api/roles/{id} - Update role
 
-· DELETE /api/roles/{id} - Delete role
+- DELETE /api/roles/{id} - Delete role
 
 Employee Management
 
-· GET /api/employees - List all employees
+- GET /api/employees - List all employees
 
-· GET /api/employees/{id} - Get employee details
+- GET /api/employees/{id} - Get employee details
 
-· POST /api/employees - Create employee
+- POST /api/employees - Create employee
 
-· PUT /api/employees/{id} - Update employee
+- PUT /api/employees/{id} - Update employee
 
-· DELETE /api/employees/{id} - Delete employee
+- DELETE /api/employees/{id} - Delete employee
 
-· GET /api/employees/department/{dept} - Get by department
+- GET /api/employees/department/{dept} - Get by department
 
 Project Management
 
-· GET /api/projects - List all projects
+- GET /api/projects - List all projects
 
-· GET /api/projects/{id} - Get project details
+- GET /api/projects/{id} - Get project details
 
-· POST /api/projects - Create project
+- POST /api/projects - Create project
 
-· PUT /api/projects/{id} - Update project
+- PUT /api/projects/{id} - Update project
 
-· DELETE /api/projects/{id} - Delete project
+- DELETE /api/projects/{id} - Delete project
 
-· POST /api/projects/{id}/assign/{employeeId} - Assign employee to project
+- POST /api/projects/{id}/assign/{employeeId} - Assign employee to project
 
-· DELETE /api/projects/{id}/remove/{employeeId} - Remove employee from project
+- DELETE /api/projects/{id}/remove/{employeeId} - Remove employee from project
 
 <h3>6. Project Structure</h3> 
 
@@ -256,64 +256,64 @@ npm test
 
 User Permissions
 
-. USER_CREATE - Create new users
+- USER_CREATE - Create new users
 
-. USER_READ - View user details
+- USER_READ - View user details
 
-. USER_UPDATE - Update user information
+- USER_UPDATE - Update user information
 
-. USER_DELETE - Delete users
+- USER_DELETE - Delete users
 
 Role Permissions 
 
-. ROLE_CREATE - Create new roles
+- ROLE_CREATE - Create new roles
 
-. ROLE_READ - View role details
+- ROLE_READ - View role details
 
-. ROLE_UPDATE - Update role information
+- ROLE_UPDATE - Update role information
 
-. ROLE_DELETE - Delete roles
+- ROLE_DELETE - Delete roles
 
 Permission Permissions 
 
-. PERMISSION_CREATE - Create new permissions
+- PERMISSION_CREATE - Create new permissions
 
-. PERMISSION_READ - View permission details
+- PERMISSION_READ - View permission details
 
-. PERMISSION_UPDATE - Update permission information
+- PERMISSION_UPDATE - Update permission information
 
-. PERMISSION_DELETE - Delete permissions
+- PERMISSION_DELETE - Delete permissions
 
 Employee Permissions 
 
-· EMPLOYEE_CREATE - Create new employees
+- EMPLOYEE_CREATE - Create new employees
 
-· EMPLOYEE_READ - View employee details
+- EMPLOYEE_READ - View employee details
 
-· EMPLOYEE_UPDATE - Update employee information
+- EMPLOYEE_UPDATE - Update employee information
 
-· EMPLOYEE_DELETE - Delete employees
+- EMPLOYEE_DELETE - Delete employees
 
 Project Permissions 
 
-· PROJECT_CREATE - Create new projects
+- PROJECT_CREATE - Create new projects
 
-· PROJECT_READ - View project details
+- PROJECT_READ - View project details
 
-· PROJECT_UPDATE - Update project information
+- PROJECT_UPDATE - Update project information
 
-· PROJECT_DELETE - Delete projects
+- PROJECT_DELETE - Delete projects
 
 
 <h3>9. Acknowledgments</h3>
 
-· Spring Boot
+- Spring Boot
 
-· React
+- React
 
-· Material-UI
+- Material-UI
 
-· MySQL
+- MySQL
 
 ---
 
