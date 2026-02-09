@@ -1,5 +1,6 @@
-## Role Based Access Control Application
+## Demo Video & Screenshots 
 
+https://github.com/your-username/your-repo/assets/xxxx/rbac-demo.mp4
 <p align="center">
   <img src="Screenshots/login.jpg" width="400" />
   <br/><br/>
@@ -9,10 +10,11 @@
   <br/><br/>
   <img src="Screenshots/role.jpg" width="400" />
   <br/><br/>
-  <img src="screenshots/employee.jpg" width="400" />
+  <img src="Screenshots/employee.jpg" width="400" />
   <br/><br/>
   <img src="Screenshots/project.jpg" width="400" />
 </p>
+## Role Based Access Control Application
 
 A modern, enterprise-grade Role-Based Access Control (RBAC) system with Employee and Project management modules. Built with Spring Boot, React, and MySQL.
 
